@@ -1,5 +1,7 @@
 # Lhue
-> (via version 0.1.0)
+> (via version 0.1.0)  
+
+This is just a project to practice Rust and solve a problem of mine.
 
 # Features
 
@@ -27,3 +29,12 @@ cargo build --release
 ```
 cargo install --path .
 ```  
+
+# Planned features
+### General
+- Login functionality, so you don't have to open the Philips Hue Site for registering your device
+- Raycast extension
+### Functionality
+- Selecting different rooms and devices
+- Dimming Lights
+- Changing colors
