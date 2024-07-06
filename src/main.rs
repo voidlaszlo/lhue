@@ -26,7 +26,7 @@ struct Config {
 
 impl Config {
     fn new() -> Config {
-        Config { hue_bridge_local_ip: env::var("HUE_BRIDGE_LOCAL_IP").unwrap_or("No Hue Bridge IP found".to_string()), hue_app_key: env::var("HUE_APP_KEY").unwrap_or("No Hue Bridge IP found".to_string()), room_id: env::var("ROOM_ID").unwrap_or("No Hue Bridge IP found".to_string()) }
+        Config { hue_bridge_local_ip: env::var("HUE_BRIDGE_LOCAL_IP").unwrap_or("No Hue Bridge IP found".to_string()), hue_app_key: env::var("HUE_APP_KEY").unwrap_or("No Hue App Key found".to_string()), room_id: env::var("ROOM_ID").unwrap_or("No Room ID found".to_string()) }
     }
 }
 
